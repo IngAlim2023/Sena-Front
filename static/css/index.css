@@ -1,0 +1,41 @@
+.custom-header {
+    background-color: #2273CC; /* Color de fondo */
+    position: relative;
+    height: 70px;
+    margin: 0; /* Sin margen */
+}
+.custom-header img {
+    height: 50px;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.custom-header button {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    background-color: white;
+    transform: translateY(-50%);
+}
+
+.custom-header a {
+    position: relative;
+    text-decoration: none;
+}
+
+
+
+.sidebar {
+    background-color: #2273CC; /* Color de fondo claro */
+    padding: 0; /* Espaciado interno */
+    position: absolute;
+    height: 100vh; /* Altura completa de la pantalla */
+}
+.nav-link {
+    color: white; /* Color de los enlaces */
+}
+.nav-link.active {
+    font-weight: bold; /* Enlace activo en negrita */
+    color: rgb(158, 158, 158); /* Color del enlace activo */
+}
