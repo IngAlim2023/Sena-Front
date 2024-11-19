@@ -1,0 +1,25 @@
+body {
+    background: linear-gradient(135deg, #2273CC, #ffffff);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+.form-control:focus {
+    border-color: #3b5d50;
+    box-shadow: 0 0 5px rgba(59, 93, 80, 0.5);
+}
+.btn-primary {
+    background-color: #005DA9;
+}
+.btn-primary:hover {
+    background-color: #4e9cdc;
+}
+.logo {
+    display: block;
+    margin: 0 auto 20px;
+}
