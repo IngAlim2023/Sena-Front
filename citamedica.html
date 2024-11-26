@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./static/css/bootstrap.css" />
     <link rel="stylesheet" href="./static/css/index.css" />
+    <link rel="stylesheet" href="./static/css/citamedica.css">
     <link rel="icon" href="static/img/IconPrevimed.jpg" />
     <title>Previmed</title>
   </head>
@@ -48,38 +49,40 @@
       </div>
       <!-- Contenido principal -->
       <div class="col-12 col-sm-8 col-md-9 col-lg-10">
-        <h1>Agregar una nueva cita medica</h1>
+        <div class="body-contenido">
+            <h1>Agregar una nueva cita medica</h1>
         <p>Llena los siguiente campos con la información del paciente. Recuerda que los campos con * son obligatorios.</p>
         <div>
-        <input type="text" class="" id="descripcioncita" placeholder="Descripcion de la cita:" required>
-        <input type="text" class="" id="nombres" placeholder="Nombres:" required>
-        <input type="text" class="" id="apellidos"placeholder="Apellidos:" required>  
-    </div>
-        <div>
-        <input type="date" class="" id="fecha" placeholder="fecha:" required>
-        <input type="time" class="" id="hora" placeholder="hora de cita:" required>
-        <select name="tipo de documento" id="documento" aria-placeholder="tipo de documento" required>
-            <option value="CC">Cédula de Ciudadanía</option>
-            <option value="TI">Tarjeta de Identidad</option>
-            <option value="CE">Cédula de Extranjería</option>
-        </select>
-        <input type="number" class="" id="numero" placeholder="N documento:" required>
+        <div class="input"
+            <input type="text" class="" id="descripcioncita" placeholder="Descripcion de la cita:" required>
+            <input type="text" class="" id="nombres" placeholder="Nombres:" required>
+            <input type="text" class="" id="apellidos"placeholder="Apellidos:" required>  
         </div>
-    <div>
-        <input type="text" class="" id="direccion" placeholder="Direccion:" required>
-        <input type="number" class="" id="celular" placeholder="Celular:" required>
-        <input type="text" class="" id="celular2" placeholder="celular2(Opcional):" required>
-        <input type="email" class="" id="email" placeholder="example@gmail.com:" required>
-        
-    </div>
-    <div class="btns"> 
+        <div>
+            <input type="date" class="" id="fecha" placeholder="fecha:" required>
+            <input type="time" class="" id="hora" placeholder="hora de cita:" required>
+            <select name="tipo de documento" id="documento" aria-placeholder="tipo de documento" required>
+                <option value="CC">Cédula de Ciudadanía</option>
+                <option value="TI">Tarjeta de Identidad</option>
+                <option value="CE">Cédula de Extranjería</option>
+            </select>
+            <input type="number" class="" id="numero" placeholder="N documento:" required>
+        </div>
+        <div>
+            <input type="text" class="" id="direccion" placeholder="Direccion:" required>
+            <input type="number" class="" id="celular" placeholder="Celular:" required>
+            <input type="text" class="" id="celular2" placeholder="celular2(Opcional):" required>
+            <input type="email" class="" id="email" placeholder="example@gmail.com:" required>
+            
+        </div>
+        <div > 
+            <button type="button" >Agregar</button>
+            <button type="button" >Borrar</button>
+        </div>
+        </div>  
 
-    <button type="button" class="btn">Agregar</button>
-    <button type="buttonnn" class="btn2">Borrar</button>
-    </div>
-
-</div>
-    </div>
+        </div>
+        </div>
       </div>
     </div>    
 

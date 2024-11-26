@@ -1,75 +1,26 @@
-
-h1 {
-    margin-bottom: 10px;
-    font-size: 24px;
-    color: #333;
-    text-align: center;
-}
-
-p {
-    margin-bottom: 20px;
-    font-size: 16px;
-    color: #666;
-    text-align:left;
-}
-
-
-div {
+.body-contenido{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    width: 100%;
-    max-width: 600px; 
-    gap: 10px;
-    margin-bottom: 20px;
+    margin-top: 200px;
 }
-
-input {
-    width: 100%; 
-
-    border: 1px solid #ccc; 
-    border-radius: 5px; 
-    font-size: 14px; 
-    box-sizing: border-box; 
-}
-
-select{
-    width: 100%;
-    
-    border: 1px solid #ccc; 
-    border-radius: 5px; 
-    font-size: 14px; 
-    box-sizing: border-box; 
-
-}
-
-.btns{
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-button {
-    width: 100px;
-    padding: 10px;
-    font-size: 16px;
-    color: #fff;
-    background-color: #2793d6;
-    border: none;
+.body-contenido input{
     border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+    text-align: center;
+    border: 1px solid gray;
+    margin-top: 15px;
+    margin-left: 15px;
 }
-
-button:hover {
+.body-contenido button{
+    margin-top: 30px;
+    border-radius: 10px;
+    border: none;
     background-color: #2793d6;
+    color:aliceblue;
+    padding: 10px;
+    margin-left: 25px;
 }
-
-button.btn:hover {
-    background-color: #35dc67;
-}
-
-button:hover {
-    background-color: #b02a37;
+.body-contenido button:hover{
+    background-color: rgb(47, 106, 145);
 }
