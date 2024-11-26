@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./static/css/bootstrap.css" />
+    <link rel="stylesheet" href="./static/css/citamedica.css">
+    <link rel="icon" href="Sena-Front/static/img/IconPrevimed.jpg" />
+    <title>Previmed</title>
+  </head>
+  <body>
+    <header class="custom-header d-flex align-items-center">
+      <img src="Sena-Front/static/img/PREVIMED_Full_Color.png" alt="Logo" />
+      <button class="btn btn-white bg-white">
+        <a href="Sena-Front/login.html">Ingresar</a>
+      </button>
+    </header>
+
+    <div class="sidebar">
+      <ul class="nav flex-column">
+        <li class="nav-item">
+          <a class="nav-link active" href="Sena-Front/index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Planes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Zonas de cobertura</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Consulta de contrato</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Visita médica</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="content">
+        
+        <h1>Agregar una nueva cita medica</h1>
+        <p>Llena los siguiente campos con la información del paciente. Recuerda que los campos con * son obligatorios.</p>
+        <div>
+        <input type="text" class="" id="descripcioncita" placeholder="Descripcion de la cita:" required>
+        <input type="text" class="" id="nombres" placeholder="Nombres:" required>
+        <input type="text" class="" id="apellidos"placeholder="Apellidos:" required>  
+    </div>
+        <div>
+        <input type="date" class="" id="fecha" placeholder="fecha:" required>
+        <input type="time" class="" id="hora" placeholder="hora de cita:" required>
+        <select name="tipo de documento" id="documento" aria-placeholder="tipo de documento" required>
+            <option value="CC">Cédula de Ciudadanía</option>
+            <option value="TI">Tarjeta de Identidad</option>
+            <option value="CE">Cédula de Extranjería</option>
+        </select>
+        <input type="number" class="" id="numero" placeholder="N documento:" required>
+        </div>
+    <div>
+        <input type="text" class="" id="direccion" placeholder="Direccion:" required>
+        <input type="number" class="" id="celular" placeholder="Celular:" required>
+        <input type="text" class="" id="celular2" placeholder="celular2(Opcional):" required>
+        <input type="email" class="" id="email" placeholder="example@gmail.com:" required>
+        
+    </div>
+    <div class="btns"> 
+
+    <button type="button" class="btn">Agregar</button>
+    <button type="buttonnn" class="btn2">Borrar</button>
+    </div>
+
+</div>
+    </div>
+    </div>
+  </body>
+</html>
+
+    
