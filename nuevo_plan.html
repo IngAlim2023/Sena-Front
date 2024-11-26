@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./static/css/bootstrap.css" />
+    <link rel="stylesheet" href="./static/css/nuevo_plan.css" />
+    <link rel="icon" href="./static/img/IconPrevimed.jpg" />
+    <title>Previmed</title>
+  </head>
+  <body class="m-0">
+
+    <!-- Encabezado -->
+    <header class="container-fluid row align-items-center py-2 m-0" style="background-color: #2273CC;">
+      <div class="col-2">
+        <img class="img-fluid" src="static/img/PREVIMED_Full_Color.png" alt="Logo" />
+      </div>
+      <div class="col text-end">
+        <a href="login.html" class="btn" style="background-color: #ffffff; color: #2273CC; border-color: #ffffff;">
+          Ingresar
+        </a>
+      </div>
+    </header>
+
+    <!-- Contenedor principal -->
+    <div class="row m-0">
+      <!-- Sidebar -->
+      <div class="col-12 col-sm-4 col-md-3 col-lg-2 vh-100" style="background-color: #2273CC;">
+        <div class="sidebar p-3">
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link active text-white" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white-50" href="#">Planes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white-50" href="#">Zonas de cobertura</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white-50" href="#">Consulta de contrato</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white-50" href="#">Visita médica</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- Contenido principal -->
+      <div class="col-12 col-sm-8 col-md-9 col-lg-10">
+        <div class="contenedor">
+            <div class="head-form">
+                <div class="head-title">
+                    <h3>Agrega tu nuevo plan</h3>
+                </div>
+                <div class="head-p">
+                    <p>Llena los siguientes campos con la información del nuevo plan. Recuerda que los campos con * son obligatorios</p>
+                </div>
+            </div>
+            <div class="form-n">
+                <form>
+                    <div class="inputs-form">
+                        <div class="separacion">
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="basic-addon1">Nombre *</span>
+                                <input type="text" class="form-control" aria-describedby="basic-addon1">
+                            </div>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="basic-addon1">Descripción *</span>
+                                <input type="text" class="form-control" aria-describedby="basic-addon1">
+                            </div>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="basic-addon1">Días de cobertura *</span>
+                                <input type="text" class="form-control" aria-describedby="basic-addon1">
+                            </div>
+                        </div>
+                        <div class="separacion">
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="basic-addon1">Valor *</span>
+                                <input type="text" class="form-control" aria-describedby="basic-addon1">
+                            </div>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="basic-addon1">N° de personas *</span>
+                                <input type="text" class="form-control" aria-describedby="basic-addon1">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btones">
+                        <button type="button" class="btn btn-outline-primary">Agregar</button>
+                        <button type="button" class="btn btn-outline-danger">Cancelar</button>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+      </div>
+    </div>    
+
+  </body>
+</html>
