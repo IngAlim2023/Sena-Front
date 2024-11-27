@@ -1,0 +1,24 @@
+.search-cont {
+    border-radius: 35px;
+    padding: 10px;
+    border: none;
+    width: 350px;
+    box-shadow: 0 2px 2px 0 gray;
+    transition: width 0.3s ease; 
+}
+
+.search-cont:focus {
+    border: none;
+    outline: none;
+}
+.table-cont{
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .search-cont {
+        width: 60%;
+        margin: 0 auto; 
+    }
+}
+

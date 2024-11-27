@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./static/css/bootstrap.css" />
+    <link rel="stylesheet" href="./static/css/nuevo_plan.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" href="./static/img/IconPrevimed.jpg" />
+    <link rel="stylesheet" href="./static/css/ver_citas.css" />
+    <title>Previmed</title>
+  </head>
+  <body class="m-0">
+    <!-- Encabezado -->
+    <header
+      class="container-fluid row align-items-center py-2 m-0"
+      style="background-color: #2273cc"
+    >
+      <div class="col-2">
+        <img
+          class="img-fluid"
+          src="static/img/PREVIMED_Full_Color.png"
+          alt="Logo"
+        />
+      </div>
+      <div class="col text-end">
+        <a
+          href="login.html"
+          class="btn"
+          style="
+            background-color: #ffffff;
+            color: #2273cc;
+            border-color: #ffffff;
+          "
+        >
+          Ingresar
+        </a>
+      </div>
+    </header>
+
+    <!-- Contenedor principal -->
+    <div class="row m-0">
+      <!-- Sidebar -->
+      <div
+        class="col-12 col-sm-4 col-md-3 col-lg-2 vh-100"
+        style="background-color: #2273cc"
+      >
+        <div class="sidebar p-3">
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link active text-white" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white-50" href="#">Planes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white-50" href="#">Zonas de cobertura</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white-50" href="#"
+                >Consulta de contrato</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white-50" href="#">Visita médica</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- Contenido principal -->
+      <div class="col-12 col-sm-8 col-md-9 col-lg-10 mt-3">
+        <div class="contenido">
+          <div
+            class="head-cont d-flex justify-content-between align-items-center"
+          >
+            <h3>CITAS</h3>
+            <input type="text" class="search-cont" placeholder="Buscar" />
+            <button class="btn btn-outline-primary">
+              <i class="fa-solid fa-circle-plus"></i> Añadir cita
+            </button>
+          </div>
+          <div class="table-cont mt-3">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Nombre</th>
+                  <th scope="col">Apellido</th>
+                  <th scope="col">Documento</th>
+                  <th scope="col">Dirección</th>
+                  <th scope="col">Celular</th>
+                  <th scope="col">Fecha cita</th>
+                  <th scope="col">Acciones</th>
+                  
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Jorge</td>
+                  <td>Porras</td>
+                  <td>64484615</td>
+                  <td>San Eduardo</td>
+                  <td>3117840647</td>
+                  <td>8:00 am 02-09-2024</td>
+                  <td>
+                    <i class="fa-regular fa-eye"></i>
+                    <i class="fa-regular fa-pen-to-square"></i>
+                    <i class="fa-regular fa-trash-can"></i>
+                  </td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Daniela</td>
+                    <td>Usuga</td>
+                    <td>644464</td>
+                    <td>La esmeralda</td>
+                    <td>3118778747</td>
+                    <td>8:00 am 01-01-2025</td>
+                    <td>
+                      <i class="fa-regular fa-eye"></i>
+                      <i class="fa-regular fa-pen-to-square"></i>
+                      <i class="fa-regular fa-trash-can"></i>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Jesion</td>
+                    <td>Reyes</td>
+                    <td>6448979</td>
+                    <td>San Eduardo</td>
+                    <td>31175454465
+                    </td>
+                    <td>8:00 am 02-02-2025</td>
+                    <td>
+                      <i class="fa-regular fa-eye"></i>
+                      <i class="fa-regular fa-pen-to-square"></i>
+                      <i class="fa-regular fa-trash-can"></i>
+                    </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
