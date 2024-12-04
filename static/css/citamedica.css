@@ -1,76 +1,166 @@
 
 
-h1 {
-    margin-bottom: 10px;
-    font-size: 24px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body y fondo de la página */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
     color: #333;
-    text-align: center;
-}
-
-p {
-    margin-bottom: 20px;
-    font-size: 16px;
-    color: #666;
-    text-align:left;
-}
-
-
-div {
+    line-height: 1.6;
+  }
+  
+  /* Encabezado */
+  .custom-header {
+    background-color: #fff;
+    padding: 15px;
+    border-bottom: 2px solid #ddd;
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    width: 100%;
-    max-width: 600px; 
-    gap: 10px;
-    margin-bottom: 20px;
-}
-
-input {
-    width: 100%; 
-
-    border: 1px solid #ccc; 
-    border-radius: 5px; 
-    font-size: 14px; 
-    box-sizing: border-box; 
-}
-
-select{
-    width: 100%;
-    
-    border: 1px solid #ccc; 
-    border-radius: 5px; 
-    font-size: 14px; 
-    box-sizing: border-box; 
-
-}
-
-.btns{
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-button {
-    width: 100px;
-    padding: 10px;
-    font-size: 16px;
-    color: #fff;
-    background-color: #2793d6;
+  }
+  
+  .custom-header img {
+    height: 50px;
+  }
+  
+  .custom-header .btn {
+    background-color: #28a745; /* Color verde */
+    color: white;
     border: none;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .custom-header .btn a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .custom-header .btn:hover {
+    background-color: #218838;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    width: 250px;
+    background-color: #343a40;
+    padding-top: 20px;
+    position: fixed;
+    height: 100%;
+  }
+  
+  .sidebar .nav {
+    list-style-type: none;
+  }
+  
+  .sidebar .nav-item {
+    margin: 10px 0;
+  }
+  
+  .sidebar .nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+  }
+  
+  .sidebar .nav-link:hover {
+    background-color: #495057;
+  }
+  
+  /* Estilo principal de la página */
+  .content {
+    margin-left: 270px;
+    padding: 20px;
+  }
+  
+  .content h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #007bff; /* Azul claro */
+  }
+  
+  .content p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .content input,
+  .content select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .content input:focus,
+  .content select:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Botones */
+  .btns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .btn {
+    background-color: #28a745; /* Verde */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
-}
-
-button:hover {
-    background-color: #2793d6;
-}
-
-button.btn:hover {
-    background-color: #35dc67;
-}
-
-button:hover {
-    background-color: #b02a37;
-}
+  }
+  
+  .btn:hover {
+    background-color: #218838;
+  }
+  
+  .btn2 {
+    background-color: #dc3545; /* Rojo */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn2:hover {
+    background-color: #c82333;
+  }
+  
+  /* Ajuste para pantallas pequeñas */
+  @media (max-width: 768px) {
+    .custom-header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .sidebar {
+      width: 100%;
+      position: relative;
+      height: auto;
+    }
+  
+    .content {
+      margin-left: 0;
+      padding: 10px;
+    }
+  }
